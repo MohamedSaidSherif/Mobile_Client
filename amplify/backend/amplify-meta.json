@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mobileclient-dev-14442-authRole",
+      "UnauthRoleArn": "arn:aws:iam::679798336647:role/amplify-mobileclient-dev-14442-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::679798336647:role/amplify-mobileclient-dev-14442-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-mobileclient-dev-14442-deployment",
+      "UnauthRoleName": "amplify-mobileclient-dev-14442-unauthRole",
+      "StackName": "amplify-mobileclient-dev-14442",
+      "StackId": "arn:aws:cloudformation:ap-south-1:679798336647:stack/amplify-mobileclient-dev-14442/18123cc0-8f65-11ec-8c68-061a2049d058",
+      "AmplifyAppId": "d2mc4329n1cz1s"
+    }
+  },
+  "auth": {
+    "mobileclient3e67de0d": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-mobileclient-dev-14442-deployment/amplify-cfn-templates/auth/mobileclient3e67de0d-cloudformation-template.json",
+        "logicalId": "authmobileclient3e67de0d"
+      },
+      "lastPushTimeStamp": "2022-02-16T20:25:04.102Z",
+      "output": {
+        "UserPoolId": "ap-south-1_HcY9CpMnd",
+        "AppClientIDWeb": "3nsolprqk8g6s94memcjcjj2ck",
+        "AppClientID": "699c7mhrcp2iaekig90qskq76k",
+        "IdentityPoolId": "ap-south-1:ab74fdc7-21a7-45e9-af81-09613ffcd129",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-south-1:679798336647:userpool/ap-south-1_HcY9CpMnd",
+        "IdentityPoolName": "mobileclient3e67de0d_identitypool_3e67de0d__dev",
+        "UserPoolName": "mobileclient3e67de0d_userpool_3e67de0d"
+      },
+      "lastPushDirHash": "N3YqlctBc0tEFUY9PEbPkNSfiI4="
+    }
+  }
+}
